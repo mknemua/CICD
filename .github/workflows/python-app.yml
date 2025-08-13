@@ -5,11 +5,11 @@ name: Python CI
 #To trigger the CI on events
 on:
   push:
-    branches:
-        -main
+    branches:["main"]
+        
   pull_request:
-    branches:
-        -main
+    branches:["main"]
+        
 
 
 jobs:
